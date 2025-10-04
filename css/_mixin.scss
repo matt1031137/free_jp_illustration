@@ -16,6 +16,13 @@
   }
 }
 
+
+@mixin md2 {
+  @media (max-width: 820px) {
+    @content;
+  }
+}
+
 @mixin md {
   @media (max-width: 768px) {
     @content;
